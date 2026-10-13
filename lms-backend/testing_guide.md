@@ -1,6 +1,6 @@
 # 🧪 Panduan Testing LMS Backend — Semua Fitur
 
-Panduan & skrip pengujian untuk **seluruh fitur** API LMS Maxy Academy.
+Panduan & skrip pengujian untuk **seluruh fitur** API LMS LE Academy.
 Mencakup autentikasi, RBAC, penugasan, gamifikasi, commerce, lembaga B2B, sertifikat,
 serta **tenant scoping** (isolasi data antar-lembaga) dan **kewajiban enrollment**.
 

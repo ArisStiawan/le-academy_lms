@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LMS Maxy Academy",
+  title: "LMS LE Academy",
   description:
     "Learning Management System multi-segmen untuk siswa, karyawan, mentor, lembaga bimbingan, dan administrator.",
 };

@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "backend: php artisan serve",
+      "type": "shell",
+      "command": "php artisan serve",
+      "options": {
+        "cwd": "${workspaceFolder}/lms-backend"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "servers",
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "icon": {
+        "id": "server",
+        "color": "terminal.ansiBlue"
+      }
+    },
+    {
+      "label": "frontend: npm start",
+      "type": "shell",
+      "command": "npm start",
+      "options": {
+        "cwd": "${workspaceFolder}/lms-frontend"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "group": "servers",
+        "panel": "dedicated",
+        "reveal": "always"
+      },
+      "icon": {
+        "id": "globe",
+        "color": "terminal.ansiGreen"
+      }
+    },
+    {
+      "label": "Run Backend + Frontend",
+      "dependsOn": [
+        "backend: php artisan serve",
+        "frontend: npm start"
+      ],
+      "dependsOrder": "parallel",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

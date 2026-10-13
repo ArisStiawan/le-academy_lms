@@ -6,7 +6,7 @@ import { CurriculumManager } from '@/components/curriculum-manager';
 export default function AdminCurriculaPage() {
   return (
     <>
-      <PageHeader title="Kurikulum" description="Kelola kurikulum platform Maxy Academy." />
+      <PageHeader title="Kurikulum" description="Kelola kurikulum platform LE Academy." />
       <CurriculumManager />
     </>
   );

@@ -77,7 +77,7 @@ export default function SiswaPackagesPage() {
       <Card className="mb-6">
         <CardHeader title="Kode Voucher" subtitle="Opsional — masukkan sebelum membeli paket." />
         <Input
-          placeholder="Contoh: MAXY2026"
+          placeholder="Contoh: LE2026"
           value={voucher}
           onChange={(e) => setVoucher(e.target.value)}
         />

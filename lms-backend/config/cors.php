@@ -9,7 +9,7 @@ return [
     |
     | Atur origin frontend yang boleh mengakses API. Untuk produksi, isi
     | CORS_ALLOWED_ORIGINS di .env dengan daftar domain terpisah koma, mis:
-    |   CORS_ALLOWED_ORIGINS=https://app.maxyacademy.id,https://admin.maxyacademy.id
+    |   CORS_ALLOWED_ORIGINS=https://app.leacademy.id,https://admin.leacademy.id
     |
     | Autentikasi API ini memakai Bearer token (bukan cookie), sehingga
     | supports_credentials di-set false dan default "*" tidak berisiko

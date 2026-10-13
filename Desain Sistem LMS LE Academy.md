@@ -1,4 +1,4 @@
-# Desain Sistem LMS Multi Segmen — Maxy Academy
+# Desain Sistem LMS Multi Segmen — LE Academy
 
 Turunan dari PRD: Arsitektur Sistem, ERD PostgreSQL, dan UML (Use Case, Activity, Sequence).
 

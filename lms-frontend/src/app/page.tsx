@@ -37,7 +37,7 @@ const PAKET: Paket[] = [
     name: 'Gratis',
     price: 'Rp0',
     period: 'selamanya',
-    tagline: 'Coba dulu, kenalan dengan cara belajar di Maxy.',
+    tagline: 'Coba dulu, kenalan dengan cara belajar di LE.',
     features: [
       'Akses 3 kursus dasar',
       'Kuis & latihan terbatas',
@@ -172,14 +172,14 @@ export default function HomePage() {
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
           <div className="flex items-center gap-2.5">
             <div className="grid h-10 w-10 place-items-center rounded-[14px] bg-brand font-display text-lg font-extrabold text-brand-fg shadow-[0_3px_0_var(--brand-dark)]">
-              M
+              LE
             </div>
-            <span className="font-display text-lg font-extrabold">Maxy Academy</span>
+            <span className="font-display text-lg font-extrabold">LE Academy</span>
           </div>
           <nav className="hidden items-center gap-6 text-sm font-extrabold text-muted md:flex">
             <Link href="#paket" className="transition hover:text-brand-dark">Paket</Link>
             <Link href="#webinar" className="transition hover:text-brand-dark">Webinar</Link>
-            <Link href="#kenapa" className="transition hover:text-brand-dark">Kenapa Maxy</Link>
+            <Link href="#kenapa" className="transition hover:text-brand-dark">Kenapa LE</Link>
           </nav>
           <div className="flex items-center gap-2">
             <Link href="/login">
@@ -247,10 +247,10 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Kenapa Maxy (highlights) */}
+      {/* Kenapa LE (highlights) */}
       <section id="kenapa" className="mx-auto max-w-6xl px-4 py-12">
         <div className="mb-6 text-center">
-          <h2 className="font-display text-2xl font-extrabold sm:text-3xl">Kenapa belajar di Maxy Academy?</h2>
+          <h2 className="font-display text-2xl font-extrabold sm:text-3xl">Kenapa belajar di LE Academy?</h2>
           <p className="mt-1 text-sm font-semibold text-muted">Belajar jadi kebiasaan yang bikin ketagihan.</p>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -394,7 +394,7 @@ export default function HomePage() {
       </section>
 
       <footer className="border-t border-border py-8 text-center text-sm font-semibold text-muted">
-        © {new Date().getFullYear()} Maxy Academy — LMS Multi-Segmen
+        © {new Date().getFullYear()} LE Academy — LMS Multi-Segmen
       </footer>
     </div>
   );

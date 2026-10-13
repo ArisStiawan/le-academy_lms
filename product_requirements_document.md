@@ -1,10 +1,9 @@
 # PRODUCT REQUIREMENTS DOCUMENT (PRD)
-**Nama Produk:** Learning Management System (LMS) Multi Segmen Berbasis Web di Maxy Academy
+**Nama Produk:** Learning Management System (LMS) Multi Segmen Berbasis Web
 **Metode Pengembangan:** Scrum & User Centered Design (UCD)
-**Tim Pengembang:** Kelompok 10 Universitas 'Aisyiyah Yogyakarta
 
 ## 1. Ringkasan Eksekutif (Executive Summary)
-Maxy Academy membutuhkan platform pembelajaran digital (*Learning Management System*) yang mampu mengakomodasi berbagai segmen pengguna secara bersamaan dalam satu sistem yang terintegrasi. Berbeda dengan LMS konvensional yang menerapkan konsep *One Size Fits All*, LMS ini menggunakan pendekatan *Multi Segment Learning Platform*. Hal ini memastikan bahwa setiap pengguna (seperti siswa, karyawan korporat, atau mentor) akan mendapatkan antarmuka, fungsionalitas, dan alur pengalaman belajar yang disesuaikan dengan peran serta kebutuhan spesifik mereka.
+LE Academy membutuhkan platform pembelajaran digital (*Learning Management System*) yang mampu mengakomodasi berbagai segmen pengguna secara bersamaan dalam satu sistem yang terintegrasi. Berbeda dengan LMS konvensional yang menerapkan konsep *One Size Fits All*, LMS ini menggunakan pendekatan *Multi Segment Learning Platform*. Hal ini memastikan bahwa setiap pengguna (seperti siswa, karyawan korporat, atau mentor) akan mendapatkan antarmuka, fungsionalitas, dan alur pengalaman belajar yang disesuaikan dengan peran serta kebutuhan spesifik mereka.
 
 ## 2. Tujuan Produk
 *   Merancang LMS multi-segmen yang adaptif terhadap lima peran pengguna: Administrator, Mentor, Siswa, Karyawan, dan Lembaga Bimbingan.

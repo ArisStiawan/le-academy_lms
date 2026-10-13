@@ -25,7 +25,7 @@ export default function AdminDashboard() {
 
   return (
     <>
-      <PageHeader title="Dasbor Administrator" description="Ringkasan seluruh platform Maxy Academy." />
+      <PageHeader title="Dasbor Administrator" description="Ringkasan seluruh platform LE Academy." />
 
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <StatCard label="Total Pendapatan" value={s ? rupiah(s.total_revenue) : '—'} tone="success" />

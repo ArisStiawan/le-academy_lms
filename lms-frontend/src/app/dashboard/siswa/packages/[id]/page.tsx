@@ -192,7 +192,7 @@ export default function PackageDetailPage() {
                   <span className="mb-1 block text-sm font-medium">Kode Voucher (opsional)</span>
                   <input
                     className="h-10 w-full rounded-[14px] border border-border bg-card px-3 text-sm outline-none focus:border-brand"
-                    placeholder="Contoh: MAXY2026"
+                    placeholder="Contoh: LE2026"
                     value={voucher}
                     onChange={(e) => setVoucher(e.target.value)}
                   />

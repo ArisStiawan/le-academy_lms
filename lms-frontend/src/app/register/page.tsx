@@ -55,9 +55,9 @@ export default function RegisterPage() {
 
         <div className="relative flex items-center gap-2.5">
           <div className="grid h-11 w-11 place-items-center rounded-[15px] bg-white/20 font-display text-xl font-extrabold">
-            M
+            LE
           </div>
-          <span className="font-display text-lg font-extrabold">Maxy Academy</span>
+          <span className="font-display text-lg font-extrabold">LE Academy</span>
         </div>
 
         <div className="relative">
@@ -79,7 +79,7 @@ export default function RegisterPage() {
         </div>
 
         <p className="relative text-sm font-semibold text-white/70">
-          © {new Date().getFullYear()} Maxy Academy
+          © {new Date().getFullYear()} LE Academy
         </p>
       </aside>
 
@@ -88,7 +88,7 @@ export default function RegisterPage() {
         <div className="w-full max-w-md">
           <div className="mb-6 text-center lg:text-left">
             <div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-[16px] bg-brand font-display text-xl font-extrabold text-brand-fg shadow-[0_4px_0_var(--brand-dark)] lg:mx-0">
-              M
+              LE
             </div>
             <h1 className="font-display text-2xl font-extrabold">Daftar Akun Siswa</h1>
             <p className="mt-1 text-sm font-semibold text-muted">

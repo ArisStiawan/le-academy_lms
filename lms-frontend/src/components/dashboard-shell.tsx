@@ -67,10 +67,10 @@ export function DashboardShell({ children }: { children: React.ReactNode }) {
       >
         <div className="flex h-16 items-center gap-2.5 border-b border-border px-5">
           <div className="grid h-10 w-10 place-items-center rounded-[14px] bg-brand font-display text-lg font-extrabold text-brand-fg shadow-[0_3px_0_var(--brand-dark)]">
-            M
+            LE
           </div>
           <div>
-            <p className="font-display text-[15px] font-extrabold leading-tight">Maxy Academy</p>
+            <p className="font-display text-[15px] font-extrabold leading-tight">LE Academy</p>
             <p className={`text-xs font-extrabold ${ROLE_ACCENT[role]}`}>{ROLE_LABEL[role]}</p>
           </div>
         </div>

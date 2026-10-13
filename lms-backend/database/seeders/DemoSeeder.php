@@ -41,17 +41,17 @@ class DemoSeeder extends Seeder
         Level::firstOrCreate(['name' => 'Mahir'], ['min_xp' => 1500]);
 
         // --- Pengguna -------------------------------------------------------
-        $this->user('Admin Platform', 'admin@maxy.test', 'admin');
+        $this->user('Admin Platform', 'admin@le.test', 'admin');
 
         $instA = Institution::firstOrCreate(['name' => 'Bimbel Cerdas'], ['status' => 'active']);
         $instB = Institution::firstOrCreate(['name' => 'Bimbel Juara'], ['status' => 'active']);
 
-        $mentor = $this->user('Mentor Budi', 'mentor@maxy.test', 'mentor', $instA->id);
-        $this->user('Pemilik Bimbel Cerdas', 'lembaga@maxy.test', 'lembaga', $instA->id);
-        $this->user('Pemilik Bimbel Juara', 'lembaga2@maxy.test', 'lembaga', $instB->id);
-        $siswa = $this->user('Siswa Ani', 'siswa@maxy.test', 'siswa', $instA->id);
-        $siswa2 = $this->user('Siswa Doni', 'siswa2@maxy.test', 'siswa', $instB->id);
-        $karyawan = $this->user('Karyawan Citra', 'karyawan@maxy.test', 'karyawan');
+        $mentor = $this->user('Mentor Budi', 'mentor@le.test', 'mentor', $instA->id);
+        $this->user('Pemilik Bimbel Cerdas', 'lembaga@le.test', 'lembaga', $instA->id);
+        $this->user('Pemilik Bimbel Juara', 'lembaga2@le.test', 'lembaga', $instB->id);
+        $siswa = $this->user('Siswa Ani', 'siswa@le.test', 'siswa', $instA->id);
+        $siswa2 = $this->user('Siswa Doni', 'siswa2@le.test', 'siswa', $instB->id);
+        $karyawan = $this->user('Karyawan Citra', 'karyawan@le.test', 'karyawan');
 
         UserLevel::updateOrCreate(
             ['user_id' => $siswa->id],
@@ -638,11 +638,11 @@ TXT,
         }
 
         Notification::firstOrCreate(
-            ['user_id' => $siswa->id, 'title' => 'Selamat datang di Maxy Academy'],
+            ['user_id' => $siswa->id, 'title' => 'Selamat datang di LE Academy'],
             ['type' => 'info', 'message' => 'Lengkapi profil dan mulai belajar hari ini.']
         );
 
-        $this->command?->info('DemoSeeder selesai. Login: siswa@maxy.test / password');
+        $this->command?->info('DemoSeeder selesai. Login: siswa@le.test / password');
     }
 
     private function user(string $name, string $email, string $role, ?int $institutionId = null): User

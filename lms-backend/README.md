@@ -1,6 +1,6 @@
-# LMS Maxy Academy — Backend API
+# LMS LE Academy — Backend API
 
-Backend REST API untuk **Learning Management System (LMS) Multi Segmen Maxy Academy**.
+Backend REST API untuk **Learning Management System (LMS) Multi Segmen LE Academy**.
 Satu platform yang melayani beberapa segmen pengguna sekaligus (siswa akademik, karyawan
 pelatihan korporat, mentor, lembaga bimbingan B2B, dan administrator) melalui satu sistem
 terintegrasi berbasis *Role Based Access Control* (RBAC).
@@ -202,4 +202,4 @@ leaderboard, serta dasbor analitik & laporan.
 
 ## 📄 Lisensi
 
-Proyek pengembangan LMS Maxy Academy — Kelompok 10, Universitas 'Aisyiyah Yogyakarta.
+Proyek pengembangan LMS LE Academy — Kelompok 10, Universitas 'Aisyiyah Yogyakarta.
