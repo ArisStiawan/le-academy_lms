@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens "Playful & Friendly" — LMS Maxy Academy
+ * ------------------------------------------------------
+ * Gaya: clean + friendly/playful (referensi rasa: Duolingo, Khan Academy, Brilliant)
+ * Primary grape #6D5DF6; aksen mint/sun/sky/coral; sudut membulat besar;
+ * tombol tebal (shadow bawah); font Baloo 2 (display) + Nunito (body).
+ */
+:root {
+  --background: #f6f7fc;
+  --foreground: #23254d;
+  --card: #ffffff;
+  --muted: #6b7094;
+  --border: #e9ebf6;
+  --border-strong: #d9dcef;
+
+  /* brand */
+  --brand: #6d5df6;
+  --brand-dark: #4b3bd4;
+  --brand-fg: #ffffff;
+  --brand-soft: #efecff;
+
+  /* aksen cerah */
+  --mint: #22c55e;
+  --mint-dark: #159a45;
+  --mint-soft: #e4f8ec;
+  --sun: #ffc94d;
+  --sun-dark: #e0a81e;
+  --sun-soft: #fff4d6;
+  --sky: #38bdf8;
+  --sky-dark: #1b9bd8;
+  --sky-soft: #e3f5fe;
+  --coral: #ff6b6b;
+  --coral-dark: #e04848;
+  --coral-soft: #ffe8e8;
+
+  /* bentuk */
+  --radius-card: 22px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+
+  --color-brand: var(--brand);
+  --color-brand-dark: var(--brand-dark);
+  --color-brand-fg: var(--brand-fg);
+  --color-brand-soft: var(--brand-soft);
+
+  --color-mint: var(--mint);
+  --color-mint-dark: var(--mint-dark);
+  --color-mint-soft: var(--mint-soft);
+  --color-sun: var(--sun);
+  --color-sun-dark: var(--sun-dark);
+  --color-sun-soft: var(--sun-soft);
+  --color-sky: var(--sky);
+  --color-sky-dark: var(--sky-dark);
+  --color-sky-soft: var(--sky-soft);
+  --color-coral: var(--coral);
+  --color-coral-dark: var(--coral-dark);
+  --color-coral-soft: var(--coral-soft);
+
+  --color-admin: #ff6b6b;
+  --color-mentor: #6d5df6;
+  --color-siswa: #ffc94d;
+  --color-karyawan: #22c55e;
+  --color-lembaga: #38bdf8;
+
+  --font-sans: var(--font-nunito);
+  --font-display: var(--font-baloo);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-rounded, system-ui, -apple-system, sans-serif;
+}
+
+/* Judul memakai font display membulat yang friendly */
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), var(--font-sans), ui-rounded, system-ui, sans-serif;
+  letter-spacing: -0.2px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 999px;
+  border: 3px solid var(--background);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
